@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./index.css" class="css">    
+     <link rel="stylesheet" href="./utils.css" class="css">  
+     
+    <title>calculator</title>
+</head>
+<body>
+    <h1 class="center">Calculator</h1>
+    <div class="container flex border-radius">
+        <div class="center" >
+            <input id="text" type="text" disabled>
+        </div>
+        <div class="row">
+            <button class="button" onclick="temp(this)">7</button>
+            <button class="button" onclick="temp(this)">8</button>
+            <button class="button" onclick="temp(this)">9</button>
+            <button class="button back-color" onclick="temp(this)">/</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="temp(this)">4</button>
+            <button class="button" onclick="temp(this)">5</button>
+            <button class="button" onclick="temp(this)">6</button>
+            <button class="button back-color" onclick="temp(this)">*</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="temp(this)">1</button>
+            <button class="button" onclick="temp(this)">2</button>
+            <button class="button" onclick="temp(this)">3</button>
+            <button class="button back-color" onclick="temp(this)">-</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="temp(this)">0</button>
+            <button class="button" onclick="temp(this)">.</button>
+            <button class="button" id="clear" onclick="temp(this)">C</button>
+            <button class="button back-color" onclick="temp(this)">+</button>
+        </div>
+        <div class="total row">
+            <button class="button" id="total" onclick="temp(this)">=</button>
+            <button class="button" id="cancel" onclick="temp(this)">X</button>
+        </div>
+ 
+       
+    </div> 
+    <script type="text/javascript" src="./index.js"></script>  
+    
+</body>
+</html>

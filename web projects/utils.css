@@ -1,0 +1,16 @@
+.center{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.border-black{
+    border-color:green;
+}
+.border-radius{
+    border-radius:10px;
+}
+

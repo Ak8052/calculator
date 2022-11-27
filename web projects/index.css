@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Condensed';
+}
+
+.container{
+    background-color: #bddcbe;
+    width:250px;
+    margin:0px auto;
+}
+.container input{
+    border-radius: 10px;
+    border:2px solid black;
+    padding: 5px 25px;
+    margin:5px 0px;
+    cursor:pointer;
+    font-weight:700;
+    font-size:13px;
+    outline:none;
+
+}
+input[type=text]{
+    outline:none;
+    background-color: #fff;
+    
+}
+.row{
+    margin:auto;
+    padding:5px;
+}
+.row button{
+    padding: 15px 20px;
+    border-radius: 15px;
+    border:2px solid black;
+    cursor:pointer;
+    font-weight:700;
+    font-size:15px;
+    box-shadow: 0px 4px 4px;
+}
+.row button:hover{
+    background-color: black;
+    color:white;
+}
+.total{
+    padding:4px 0px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.total button{
+width:100px;
+margin:0px 4px;
+font-size: 18px;
+
+}
+#total{
+    background-color:rgb(5, 193, 5);
+
+}
+#total:hover{
+    background-color:green;
+    
+}
+#clear{
+    background-color: red;
+    color:white;
+}
+#clear:hover{
+    background-color:rgb(244, 15, 15);
+    color:black;
+}
+.back-color{
+    background:rgb(190, 190, 231);
+    
+}
+#cancel{
+    background:rgb(235, 235, 174);
+    color:whitel;
+}
